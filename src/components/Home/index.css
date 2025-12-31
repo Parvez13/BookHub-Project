@@ -1,0 +1,122 @@
+.home-container {
+  min-height: 100vh;
+  background-color: #f5f7fa;
+}
+
+.home-heading {
+  font-family: 'Bree Serif';
+  font-weight: 600;
+  font-size: 30px;
+  margin-left: 60px;
+}
+
+.home-paragraph {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 32px;
+  margin-left: 60px;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+.books-container {
+  margin-left: 60px;
+  height: auto;
+  min-height: 400px;
+  width: 90%;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  padding: 32px;
+  justify-content: flex-start;
+  border-radius: 16px;
+
+}
+
+.books-detail-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.books-detail-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.books-detail-button {
+  font-family: 'Roboto';
+  color: #ffffff;
+  background-color: #0284c7;
+  text-align: center;
+  border-radius: 4px;
+  border: 0px;
+  height: 30px;
+  padding: 6px;
+}
+
+.slider-container {
+  margin-top: 20px;
+  width: 100%;
+}
+
+/* Change the arrow icons to gray and increase size */
+.slick-prev:before,
+.slick-next:before {
+  color: #94a3b8 !important; /* Gray color from bd2.png */
+  font-size: 24px !important;
+  opacity: 1 !important;
+}
+
+/* Position the Left Arrow inside the card padding */
+.slick-prev {
+  left: -25px !important;
+  z-index: 1;
+}
+
+/* Position the Right Arrow inside the card padding */
+.slick-next {
+  right: -25px !important;
+  z-index: 1;
+}
+
+.books-failure-view {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.books-failure-paragraph {
+  font-size: 24px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  line-height: 48px;
+}
+
+.books-failure-button {
+  background-color: #0284c7;
+  height: 48px;
+  width: 112px;
+  border-radius: 12px;
+  padding-top: 12px;
+  padding-right: 24px;
+  padding-left: 24px;
+  padding-bottom: 12px;
+  color: #ffffff;
+  text-align: center;
+  border: 0px;
+}
+
+.books-loader {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}

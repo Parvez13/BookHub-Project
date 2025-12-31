@@ -1,0 +1,29 @@
+.top-rated-book-item-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
+.book-image {
+  width: 200px;
+  height: 160px;
+  border-radius: 8px;
+}
+
+.book-title {
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 600;
+  color: #1e293b;
+  margin-top: 12px;
+  margin-bottom: 4px;
+}
+
+.book-author {
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: #64748b;
+  margin: 0;
+}

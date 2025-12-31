@@ -1,0 +1,42 @@
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 0;
+  margin-top: 20px;
+}
+
+.icons-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.icon-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+.footer-icon {
+  color: #3d3c3c; /* Dark gray color to match bd2.png */
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.footer-icon:hover {
+  color: #0284c7; /* Brand blue color on hover */
+}
+
+.contact-us-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 500;
+  color: #3d3c3c;
+  margin: 0;
+}
